@@ -1,0 +1,47 @@
+{
+    "manifest_version": 2,
+
+    "name": "__MSG_Name__",     // Название расширения
+    "description": "__MSG_Description__",   // Описание расширения
+    "default_locale": "en", // Язык по умолчанию "en" -
+    "version": "2.0",   // Номер версии
+    
+    "permissions": [
+        "webRequest",
+        "activeTab",
+        "clipboardWrite",
+        "clipboardRead",
+        "tabs",
+        "cookies"
+    ],
+
+    "icons": {
+        "16": "icon16.png",     // Размер  иконки 16px
+        "19": "icon19.png",     // Размер  иконки 19px
+        "32": "icon32.png",     // Размер  иконки 32px
+        "48": "icon48.png",     // Размер  иконки 48px
+        "64": "icon64.png",     // Размер  иконки 64px
+        "128": "icon128.png" }, // Размер  иконки 128px
+          
+    "browser_action": {
+    "default_icon": "icon64.png",   // По умолчанию иконка
+    "default_popup": "popup.html"   // По умолчанию html
+    },
+
+    "content_scripts": [
+        {
+        "matches": [
+        "https://www.shutterstock.com/image-photo/*",            // Страница фотографии с SSL
+        "http://www.shutterstock.com/image-photo/*",             // Страница фотографии без SSL
+        "https://www.shutterstock.com/image-illustration/*",     // Страница иллюстрации с SSL
+        "http://www.shutterstock.com/image-illustration/*",      // Страница иллюстрации без SSL
+        "https://www.shutterstock.com/image-vector/*",           // Страница вектора с SSL
+        "http://www.shutterstock.com/image-vector/*"             // Страница вектора без SSL
+        ],
+        "js": ["content.js"]
+         }
+],
+    "background": {
+        "scripts": ["popup.js"]  // Автоматическая перезагрузка расширения
+    }
+}

@@ -1,0 +1,148 @@
+/* Code by Artem Blinov - blinow99@yandex.com */
+/*  Inspiration from Bootstrap */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #fff;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+.header {
+  align-items: center;
+  background: linear-gradient(160deg, #6cd263, #2bf51a);
+  height: 5rem;
+  margin-bottom: 4px;
+  display: flex;
+}
+.name {
+	color: #ffffff;
+}
+/*.wsx {
+    padding-bottom: 3px;  */  
+/*    margin-bottom: 0px;*/
+
+}
+.logo {
+	padding-left: 5px;
+}
+
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    /*padding-left: 5px;*/
+}
+
+/*.header__link:focus {
+  outline: none;
+}*/
+
+.header__logo {
+  display: inline-block;
+  margin: .2rem 0 0 1.5rem;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+  height: 2rem;
+}
+  
+.btn {
+    display: inline-block;
+    /*padding: 6px 12px;*/
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    width: 172px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    width: 173px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.form-control {
+    /*display: block;*/
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.alert {
+    padding: 0px;
+    margin-bottom: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.alert-danger {
+    color: #a94442;
+    margin-bottom: 0px;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-success {
+    color: #3c763d;
+    margin-bottom: 0px;    
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+textarea {
+    resize: none;
+}

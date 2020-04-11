@@ -14,3 +14,9 @@ Firefox code source https://gist.github.com/blinovartem/2fff2d96045efc40cd8b3ab6
 
 
 ![](/screenshots/contentjs_firefox.JPG)
+![](/screenshots/contentjs.JPG)
+![](/screenshots/popup_firefox.JPG)
+![](/screenshots/firefox-devtool.JPG)
+![](/screenshots/chrom-found.JPG)
+![](/screenshots/firefox-btn.JPG)
+![](/screenshots/getkey-devtool.JPG)

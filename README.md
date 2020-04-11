@@ -11,7 +11,7 @@
 Purpose: to complete a student project, and help other authors productive work. Shutterstock is owned by Shutterstock, Inc.
 The rest of the files are in this repo https://github.com/blinovartem/kw, I do not use modules or additional programs. Code Editor: Visual Studio Code. Only three browsers: Chrome, Opera, Firefox. Ported extension with chrome. Node is used. The add-on code was presented in part by various people. Thanks to all. Help solve the problem!
 Firefox code source https://gist.github.com/blinovartem/2fff2d96045efc40cd8b3ab6d4e0b251
-
+### Photo
 File Content.js Firefox
 ![](/screenshots/contentjs_firefox.JPG)
 File Content.js Chrome
@@ -27,4 +27,5 @@ Display words without dividing with periods and spaces. Incorrect word count
 An open developer tool compared to a popup
 ![](/screenshots/getkey-devtool.JPG)
 
-I also said that I have a new problem of not getting (or showing) words in all browsers; I’ve been trying to make the version for Firewall for about two months.
+I also said that I have a new problem of not getting (or showing) words in all browsers; I’ve been trying to make the version for Firefox  for about two months.
+## Sorry for my English!

@@ -1,8 +1,27 @@
 {
-	"Name": {
-		"message": "KeyWords"
-	},
-	"Description":{
-		"message": "La extensión del navegador para copiar las palabras clave del sitio web de Shutterstock (http://shutterstock.com)"
-	}
+   "Description": {
+      "message": "La extensión del navegador para copiar las palabras clave del sitio web de Shutterstock (http://shutterstock.com)"
+   },
+   "Name": {
+      "message": "KeyWords"
+   },
+   "alertGetkey": {
+      "message": "Palabras clave no encontradas. Seleccione un sitio en inglés o simplemente recargue la página"
+   },
+   "alertFound": {
+      "message": "Encontrar "
+   },
+   "alertKeywords": {
+      "message": " keyword."
+   },
+   "alertCopied": {
+      "message": " Copiar!"
+   },
+   "butGet": {
+      "message": "Obtener palabras"
+   },
+   "butCopy": {
+      "message": "Copiar palabras"
+   }
 }
+

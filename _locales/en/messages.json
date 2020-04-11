@@ -1,8 +1,27 @@
 {
-	"Name": {
-		"message": "KeyWords"
-	},
-	"Description":{
-		"message": "Extension of the browser for copying keywords from the site Shutterstock (http://shutterstock.com)"
-	}
+   "Description": {
+      "message": "Extension of the browser for copying keywords from the site Shutterstock (http://shutterstock.com)"
+   },
+   "Name": {
+      "message": "KeyWords"
+   },
+   "alertGetkey": {
+      "message": "Keywords not found. Select a site in English or simply reload the page"
+   },
+   "alertFound": {
+      "message": "Found "
+   },
+   "alertKeywords": {
+      "message": " keyword."
+   },
+   "alertCopied": {
+      "message": " Copied!"
+   },
+   "butGet": {
+      "message": "Get Keywords"
+   },
+   "butCopy": {
+      "message": "Copy Keywords"
+   }
 }
+

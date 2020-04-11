@@ -1,8 +1,27 @@
 {
-	"Name": {
-		"message": "KeyWords"
-	},
-	"Description":{
-		"message": "Erweiterung des Browsers kopieren Stichwörter aus der Website Shutterstock (http://shutterstock.com)"
-	}
+   "Description": {
+      "message": "Erweiterung des Browsers kopieren Stichwörter aus der site Shutterstock (http://shutterstock.com)"
+   },
+   "Name": {
+      "message": "KeyWords"
+   },
+   "alertGetkey": {
+      "message": "Keywords nicht gefunden. Wählen Sie eine Website in Englisch oder laden Sie einfach die Seite neu"
+   },
+   "alertFound": {
+      "message": "Finden "
+   },
+   "alertKeywords": {
+      "message": " Schlusselwort."
+   },
+   "alertCopied": {
+      "message": " Kopieren!"
+   },
+   "butGet": {
+      "message": "Keywords Abrufen"
+   },
+   "butCopy": {
+      "message": "Keywords Kopieren"
+   }
 }
+

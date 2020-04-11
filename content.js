@@ -1,28 +1,28 @@
-//Code by Artem Blinov - blinow99@yandex.com
-
 chrome.extension.onRequest.addListener(
     function (request, sender, sendResponse) {
         if (request.method == "getTag") {
-            var tempTags = '';
-            var x = document.getElementsByClassName("btn-search-pill");
-            var i;
+            let keywords = '';
+            let x = document.getElementsByClassName("oc_x_c" );
+            let i;
+
+            keywords = [keywords].map(k => k.innerText).map(a => `<a href="/search/${a}">${a}</a>` -'<br>');
             for (i = 0; i < x.length; i++) {
-                tempTags = tempTags + x[i].innerHTML + ', ';
+                keywords = x[i].innerText + ', '; 
             }
-            tempTags = tempTags.substring(0, tempTags.length - 2);
-
-            sendResponse({ data: tempTags, count: x.length, method: "getTag" });
+            
+            sendResponse({ data: keywords, count: x.length, method: "getTag" });
         }
-        else if (request.method == "resizeKeywordContainer") {
 
-            var array = document.getElementsByClassName("keywords_container");
-            for (var i = 0; i < array.length; i++) {
+        else if (request.method == "KeywordsCarousel_root_div") {
+
+            let array = document.getElementsByClassName("relatedKeywords");
+            for (let i = 0; i < array.length; i++) {
                 array[i].style.height = "450px";
             }
 
 
             if (array.length > 0)
-                sendResponse({ length: array.length, method: "resizeKeywordContainer" });
+                sendResponse({ length: array.length, method: "KeywordsCarousel_root_div" });
 
             sendResponse({  });
         }

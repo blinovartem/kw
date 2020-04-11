@@ -1,29 +1,33 @@
-<!-- Code by Artem Blinov - blinow99@yandex.com -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Bootstrap css-->
 </head>
 <body>
-     <div style="width: 350px;" class="header"> <img class="logo" src="icon32.png" alt=""> <h4 class="name">&nbsp;KeyWords</h4></div> 
+  <div class="header">
+    <a href="https://site.loc/" class="header__link" target="_blank">
+      <img class="header__logo" src="logo-white.svg">
+    </a>
+  </div>
     <div id="lblFeedback"  style="margin-bottom: 4px" class="wsx"></div>
     <textarea id="txtResult" class="form-control" cols="10" rows="10" readonly>
-How to Use
+  How to Use
 
 - Go to English version Shutterstock
 - Select photo
 - Open extension KeyWords
 - Click button "Get Keywords"
 - Wait to process
-- Click "Copy Keywords"
+- Click "Copy Keywords"   
     </textarea>
-    <div style="padding-top: 5px;">
-      <button id="btnGetKeyWord" class="btn btn-success">Get Keywords</button>
-      <button id="btnCopy" class="btn btn-info">Copy Keywords</button>
+    <div style="padding-top: 5px;margin-bottom: 3px; " class="cor">
+      <button style="margin-right: 3px;" id="btnGetKeyWord" class="btn btn-success btn-lg" data-i18n="butGet"></button>
+      <button style="margin-left: 3px;" id="btnCopy" class="btn btn-primary btn-lg" data-i18n="butCopy"></button>
  </div>
-  <center><a href="https://www.facebook.com/blinovapps/" target="_blank">Facebook</a> • <a href="https://vk.com/blinovapps" target="_blank">VK.com</a></center>
+
+  <script type="text/javascript" src="internationalization.js"></script>
   <script type="text/javascript" src="popup.js"></script>
 </body>
 </html>

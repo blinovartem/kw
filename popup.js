@@ -1,4 +1,3 @@
-//Code by Artem Blinov - blinow99@yandex.com
 
 // When the popup HTML has loaded
 window.addEventListener('DOMContentLoaded', function() {
@@ -9,16 +8,16 @@ window.addEventListener('DOMContentLoaded', function() {
 
     // Get Keyword
     btnGetKeyWord.onclick = function () {
-        chrome.tabs.getSelected(null, function (tab) {
+        chrome.tabs.getSelected( function (tab) {
             chrome.tabs.sendRequest(tab.id, { method: "getTag" }, function (response) {
                 if (response == undefined || response.method !== "getTag" || response.data == '') {
-                    lblFeedback.innerText = 'Keywords not found. Select the English language site and try again';
+                    lblFeedback.innerText = chrome.i18n.getMessage("alertGetkey");
                     lblFeedback.className = "alert alert-danger";
                     return;
                 }
 
                 txtResult.innerText = response.data;
-                lblFeedback.innerText = 'Found ' + response.count + ' key words.';
+                lblFeedback.innerText = chrome.i18n.getMessage("alertFound") + response.count + chrome.i18n.getMessage("alertKeywords");
                 lblFeedback.className = "alert alert-success";
             });
         });
@@ -32,7 +31,7 @@ window.addEventListener('DOMContentLoaded', function() {
         }
 
         if (lblFeedback.innerText.indexOf('Copied') == -1 && lblFeedback.innerText.indexOf('Not found words.') === -1) {
-            lblFeedback.innerText = lblFeedback.innerText + ' Copied!';
+            lblFeedback.innerText = lblFeedback.innerText + chrome.i18n.getMessage("alertCopied");
             lblFeedback.className = "alert alert-success";
         }
 

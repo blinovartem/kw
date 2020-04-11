@@ -1,8 +1,27 @@
 {
-	"Name": {
-		"message": "KeyWords"
-	},
-	"Description":{
-		"message": "Extension du navigateur pour copier des mots-clés à partir du site Shutterstock (http://shutterstock.com)"
-	}
+   "Description": {
+      "message": "Extension du navigateur pour copier des mots clés à partir du site Shutterstock (http://shutterstock.com)"
+   },
+   "Name": {
+      "message": "KeyWords"
+   },
+   "alertGetkey": {
+      "message": "Mots-clés introuvables. Sélectionnez un site en anglais ou simplement recharger la page"
+   },
+   "alertFound": {
+      "message": "Trouver "
+   },
+   "alertKeywords": {
+      "message": " mot."
+   },
+   "alertCopied": {
+      "message": " Copier!"
+   },
+   "butGet": {
+      "message": "Obtenez des mots"
+   },
+   "butCopy": {
+      "message": "Copier des mots"
+   }
 }
+

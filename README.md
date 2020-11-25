@@ -15,7 +15,7 @@ Firefox code source https://gist.github.com/blinovartem/2fff2d96045efc40cd8b3ab6
 File Content.js Firefox
 ![](/screenshots/contentjs_firefox.JPG)
 File Content.js Chrome
-![](/screenshots/contentjs.JPG)
+![](/screenshots/contentjs2.JPG)
 Popup Firefox
 ![](/screenshots/popup_firefox.JPG)
 Pop-up buttons, I want them to occupy the center and be almost wide

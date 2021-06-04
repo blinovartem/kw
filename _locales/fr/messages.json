@@ -22,6 +22,9 @@
    },
    "butCopy": {
       "message": "Copier des mots"
+   },
+   "foem": {
+      "message": "Pour copier des mots-clés, cliquez sur le bouton 'Obtenir des mots-clés'. Après avoir reçu des mots, cliquez sur le bouton 'Copier les mots clés' ou Cmd+C/Ctrl+C"
    }
 }
 

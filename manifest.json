@@ -1,11 +1,12 @@
 {
+   "author": "Blinovinfo",
    "browser_action": {
       "default_icon": "icon64.png",
       "default_popup": "popup.html"
    },
    "content_scripts": [ {
       "js": [ "content.js" ],
-      "matches": [ "https://www.shutterstock.com/*", "https://www.shutterstock.com/*/*" ]
+      "matches": [ "https://www.shutterstock.com/*", "*://shutterstock.com/*"]
    } ],
    "default_locale": "en",
    "description": "__MSG_Description__",
@@ -17,13 +18,8 @@
       "48": "icon48.png",
       "64": "icon64.png"
    },
-   "background": {
-      "scripts": [
-        "hot-reload.js"
-      ]
-    }, 
    "manifest_version": 2,
    "name": "__MSG_Name__",
-   "permissions": ["clipboardWrite", "tabs"],
-   "version": "4.7"
+   "permissions": [ "clipboardWrite"],
+   "version": "5.0"
 }

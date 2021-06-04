@@ -1,18 +1,18 @@
 {
    "Description": {
-      "message": "Расширение браузера для копирования ключевых слов с сайта Shutterstock (http://shutterstock.com)"
+      "message": "Расширение браузера для копирования ключевых слов с микростоков"
    },
    "Name": {
       "message": "KeyWords"
    },
    "alertGetkey": {
-      "message": "Ключевые слова не найдены. Выберите сайт на английском языке или просто перезагрузите страницу"
+      "message": "Ключевые слова не найдены. Попробуйте просто перезагрузите страницу."
    },
    "alertFound": {
       "message": "Найдено "
    },
    "alertKeywords": {
-      "message": " ключевых слов."
+      "message": " слов."
    },
    "alertCopied": {
       "message": " Скопировал!"
@@ -22,5 +22,29 @@
    },
    "butCopy": {
       "message": "Скопировать слова"
+   },
+   "foem": {
+      "message": "Для получения ключевых слов, нажмите на кнопку 'Получить слова'. Для копирования нажмите на кнопку 'Скопировать слова' или Ctrl+C/Cmd+C"
+   },
+   "mRateButton": {
+      "description": "Rate button",
+      "message": "Да, конечно!"
+   },
+   "mRateLaterButton": {
+      "description": "Rate Later button",
+      "message": "Не сейчас"
+   },
+   "mRateLead": {
+      "description": "Rate notification lead text",
+      "message": "Вы уже ##count## раз упростили себе поиск с этим плагином!"
+   },
+   "mRateText": {
+      "description": "Rate notification text",
+      "message": "Надеюсь вам удобно. Теперь не могли бы вы потратить чуть-чуть времени, чтобы оценить это расширение?"
+   },
+   "mRateTitle": {
+      "description": "Rate notification title",
+      "message": "Ничего себе! Потрясающе!"
    }
 }
+

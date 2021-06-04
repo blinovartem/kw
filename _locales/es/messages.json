@@ -22,6 +22,9 @@
    },
    "butCopy": {
       "message": "Copiar palabras"
+   },
+   "foem": {
+      "message": "Para copiar palabras clave, haga clic en el botón 'Obtener palabras'. Después de recibir palabras, haga clic en el botón 'Copiar palabras' o Cmd+C/Ctrl+C"
    }
 }
 

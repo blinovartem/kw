@@ -22,6 +22,9 @@
    },
    "butCopy": {
       "message": "Keywords Kopieren"
+   },
+   "foem": {
+      "message": "Um Keywords zu kopieren, klicken Sie auf den Button 'Keywords Abrufen'. Klicken Sie nach dem Empfang von Wörtern auf die Schaltfläche 'Keywords Kopieren' oder Cmd+C/Ctrl+C"
    }
 }
 

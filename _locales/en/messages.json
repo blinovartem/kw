@@ -22,6 +22,28 @@
    },
    "butCopy": {
       "message": "Copy Keywords"
+   },
+   "foem": {
+      "message": "To copy keywords, click on the button 'Get Keywords'. After receiving words, click on the button 'Copy Keywords' or Cmd+C/Ctrl+C"
+   },
+   "mRateButton": {
+      "description": "Rate button",
+      "message": "Да, конечно!"
+   },
+   "mRateLaterButton": {
+      "description": "Rate Later button",
+      "message": "Не сейчас"
+   },
+   "mRateLead": {
+      "description": "Rate notification lead text",
+      "message": "Вы уже ##count## раз упростили себе поиск с этим плагином!"
+   },
+   "mRateText": {
+      "description": "Rate notification text",
+      "message": "Надеюсь вам удобно. Теперь не могли бы вы потратить чуть-чуть времени, чтобы оценить это расширение?"
+   },
+   "mRateTitle": {
+      "description": "Rate notification title",
+      "message": "Ничего себе! Потрясающе!"
    }
 }
-

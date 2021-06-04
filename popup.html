@@ -2,30 +2,30 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
-<!-- Bootstrap css-->
+<!--  css-->
 </head>
 <body>
+
   <div class="header">
-    <a href="https://site.loc/" class="header__link" target="_blank">
-      <img class="header__logo" src="logo-white.svg">
+    <a href="https://keywords.blinovinfo.ru/" title="Website" class="header__link" target="_blank">
+      <img class="header__logo" alt="KeyWords logo" src="logo-white.svg">
+    </a>
+    <a href="https://www.facebook.com/blinovapps" title="Facebook" class="header__link" target="_blank">
+      <img class="header__social" alt="Facebook logo" src="fb_logo.svg" style="margin-left: 110px;">
+    </a>
+    <a href="https://vk.com/blinovapps" title="VK" class="header__link" target="_blank">
+      <img class="header__social" alt="VK logo" src="vk_logo.svg">
     </a>
   </div>
     <div id="lblFeedback"  style="margin-bottom: 4px" class="wsx"></div>
-    <textarea id="txtResult" class="form-control" cols="10" rows="10" readonly>
-  How to Use
+    <textarea id="txtResult" class="form-control" cols="10" rows="10" data-i18n="foem" readonly></textarea>
 
-- Go to English version Shutterstock
-- Select photo
-- Open extension KeyWords
-- Click button "Get Keywords"
-- Wait to process
-- Click "Copy Keywords"   
-    </textarea>
-    <div style="padding-top: 5px;margin-bottom: 3px; " class="cor">
-      <button style="margin-right: 3px;" id="btnGetKeyWord" class="btn btn-success btn-lg" data-i18n="butGet"></button>
-      <button style="margin-left: 3px;" id="btnCopy" class="btn btn-primary btn-lg" data-i18n="butCopy"></button>
- </div>
+ <div class="d-grid gap-2 d-md-block" style="margin-bottom: 10px;">
+  <button class="btn btn-success" id="btnGetKeyWord" type="button" style="margin-left: 30px;" data-i18n="butGet"></button>
+  <button class="btn btn-primary" id="btnCopy"  type="button" data-i18n="butCopy"></button>
+</div>
 
   <script type="text/javascript" src="internationalization.js"></script>
   <script type="text/javascript" src="popup.js"></script>
